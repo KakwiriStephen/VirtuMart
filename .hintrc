@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "development",
+    "production"
+  ],
+  "hints": {
+    "compat-api/css": "off"
+  }
+}
