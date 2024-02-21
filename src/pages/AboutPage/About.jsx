@@ -1,9 +1,9 @@
 import React from "react";
 import PageHeader from "../../components/PageHeader";
 
-import image1 from "../../assets/images/about/icon1.png";
-import image2 from "../../assets/images/about/icon2.png";
-import image3 from "../../assets/images/about/icon3.png";
+import image1 from "../../assets/images/about/01.jpg";
+import image2 from "../../assets/images/about/02.jpg";
+import image3 from "../../assets/images/about/03.jpg";
 const subTitle = "About Our Catalogue";
 const title = "Good Qualification Services And Better Expriences";
 const desc =
