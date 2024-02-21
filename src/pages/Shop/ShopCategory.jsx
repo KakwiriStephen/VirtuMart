@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 const title = "All Categories";
-import Data from "../../products.json";
+import Data from "/src/products.json";
 
 const ShopCategory = ({
   filterItem,
