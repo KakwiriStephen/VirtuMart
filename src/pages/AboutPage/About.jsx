@@ -1,5 +1,9 @@
 import React from "react";
 import PageHeader from "../../components/PageHeader";
+
+import image1 from "../../assets/images/about/icon1.png";
+import image2 from "../../assets/images/about/icon2.png";
+import image3 from "../../assets/images/about/icon3.png";
 const subTitle = "About Our Catalogue";
 const title = "Good Qualification Services And Better Expriences";
 const desc =
@@ -10,19 +14,19 @@ const expareance = "Years Of Experiences";
 
 const aboutList = [
   {
-    imgUrl: "/src/assets/images/about/icon/01.jpg",
+    imgUrl: image1,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Skilled Instructors",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
-    imgUrl: "/src/assets/images/about/icon/02.jpg",
+    imgUrl: image2,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Get Certificate",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
-    imgUrl: "/src/assets/images/about/icon/03.jpg",
+    imgUrl: image3,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Online Classes",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",

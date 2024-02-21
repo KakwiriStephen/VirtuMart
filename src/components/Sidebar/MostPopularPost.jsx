@@ -1,31 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import image1 from "../../assets/images/blog/10.jpg"
+
+
 const title = "Most Popular Post";
 const postList = [
   {
     id: 1,
-    imgUrl: "/src/assets/images/blog/10.jpg",
+    imgUrl: image1,
     imgAlt: "popPost",
     title: "Excellent Customer Service",
     date: "Jan 14,2024",
   },
   {
     id: 2,
-    imgUrl: "/src/assets/images/blog/11.jpg",
+    imgUrl: image1,
     imgAlt: "popPost",
     title: "Excellent Customer Service",
     date: "Jan 14,2024",
   },
   {
     id: 3,
-    imgUrl: "/src/assets/images/blog/12.jpg",
+    imgUrl: image1,
     imgAlt: "popPost",
     title: "Excellent Customer Service",
     date: "Jan 14,2024",
   },
   {
     id: 4,
-    imgUrl: "/src/assets/images/blog/09.jpg",
+    imgUrl: image1,
     imgAlt: "rajibraj91",
     title: "Excellent Customer Service",
     date: "Jan 14,2024",

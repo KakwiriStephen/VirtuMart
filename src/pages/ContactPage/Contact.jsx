@@ -2,6 +2,11 @@ import React from "react";
 import GoogleMap from "../../components/Sidebar/GoogleMap";
 import PageHeader from "../../components/PageHeader";
 
+import image1 from "../../assets/images/icon/01.png";
+import image2 from "../../assets/images/icon/02.png";
+import image3 from "../../assets/images/icon/03.png";
+import image4 from "../../assets/images/icon/04.png";
+
 const subTitle = "Get in touch with us";
 const title = "We're Always Eager To Hear From You!";
 const conSubTitle = "Get in touch with Contact us";
@@ -11,25 +16,25 @@ const btnText = "Send our Message";
 
 const contactList = [
   {
-    imgUrl: "/src/assets/images/icon/01.png",
+    imgUrl: image1,
     imgAlt: "contact icon",
     title: "Office Address",
     desc: "1201 park street, Fifth Avenue",
   },
   {
-    imgUrl: "/src/assets/images/icon/02.png",
+    imgUrl: image2,
     imgAlt: "contact icon",
     title: "Phone number",
     desc: "+22698 745 632,02 982 745",
   },
   {
-    imgUrl: "/src/assets/images/icon/03.png",
+    imgUrl: image3,
     imgAlt: "contact icon",
     title: "Send email",
     desc: "admin@shopcart.com",
   },
   {
-    imgUrl: "/src/assets/images/icon/04.png",
+    imgUrl: image4,
     imgAlt: "contact icon",
     title: "Our website",
     desc: "www.shopcart.com",

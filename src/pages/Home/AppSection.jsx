@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import edu1 from "../../assets/images/app/01.jpg";
+import edu2 from "../../assets/images/app/02.jpg";
+
 const btnText = "Sign up for Free";
 const title = "Shop Anytime, Anywhere";
 const desc =
@@ -20,12 +23,12 @@ const AppSection = () => {
           <ul className="lab-ul">
             <li>
               <a href="#">
-                <img src="/src/assets/images/app/01.jpg" alt="education" />
+                <img src={edu1} alt="education" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="/src/assets/images/app/02.jpg" alt="education" />
+                <img src={edu2} alt="education" />
               </a>
             </li>
           </ul>
