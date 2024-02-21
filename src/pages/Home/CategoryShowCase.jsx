@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Rating from "../../components/Sidebar/Rating";
-import Rating from "../../components/Sidebar/Rating";
+// import Rating from "../../components/Sidebar/Rating";
+
+import image1 from "../../assets/images/categoryTab/01.jpg";
 
 const title = "Our Products";
 
 const ProductData = [
   {
-    imgUrl: "src/assets/images/categoryTab/01.jpg",
+    imgUrl: image1,
     cate: "Shoes",
     title: "Nike Premier X",
     author: "assets/images/course/author/01.jpg",
