@@ -1,31 +1,35 @@
 import React, { useState } from "react";
 import Rating from "./Sidebar/Rating";
+import image1 from "../../src/assets/images/instructor/01.jpg";
+import image2 from "../../src/assets/images/instructor/02.jpg";
+import image3 from "../../src/assets/images/instructor/03.jpg";
+import image4 from "../../src/assets/images/instructor/04.jpg";
 
 const reviwtitle = "Add a Review";
 let ReviewList = [
   {
-    imgUrl: "/src/assets/images/instructor/01.jpg",
+    imgUrl: image1,
     imgAlt: "Client thumb",
     name: "Ganelon Boileau",
     date: "Posted on Feb 10, 2022 at 6:57 am",
     desc: "Absolutely love this catalog site! The user-friendly interface and seamless checkout process make shopping a breeze. The wide range of products and excellent customer service keep me coming back for more.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/02.jpg",
+    imgUrl: image2,
     imgAlt: "Client thumb",
     name: "Morgana Cailot",
     date: "Posted on Feb 10, 2024 at 6:57 am",
     desc: "Absolutely love this catalog site! The user-friendly interface and seamless checkout process make shopping a breeze. The wide range of products and excellent customer service keep me coming back for more.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/03.jpg",
+    imgUrl: image3,
     imgAlt: "Client thumb",
     name: "Telford Bois",
     date: "Posted on Feb 10, 2024 at 6:57 am",
     desc: "Absolutely love this catalog site! The user-friendly interface and seamless checkout process make shopping a breeze. The wide range of products and excellent customer service keep me coming back for more.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/04.jpg",
+    imgUrl: image4,
     imgAlt: "Client thumb",
     name: "Cher Daviau",
     date: "Posted on Feb 10, 2024 at 6:57 am",
