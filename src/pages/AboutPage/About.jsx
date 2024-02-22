@@ -10,25 +10,25 @@ const desc =
   "Distinctively provide acces mutfuncto users whereas transparent proceses somes ncentivize eficient functionalities rather than extensible archtectur communicate leveraged services and cross-platform.";
 
 const year = "30+";
-const expareance = "Years Of Experiences";
+const expareance = "Years Of Business";
 
 const aboutList = [
   {
     imgUrl: image1,
     imgAlt: "about icon rajibraj91 rajibraj",
-    title: "Skilled Instructors",
+    title: "Skilled Attendants",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
     imgUrl: image2,
     imgAlt: "about icon rajibraj91 rajibraj",
-    title: "Get Certificate",
+    title: "Quality of Service",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
     imgUrl: image3,
     imgAlt: "about icon rajibraj91 rajibraj",
-    title: "Online Classes",
+    title: "Quality Products",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
 ];
@@ -43,10 +43,10 @@ const About = () => {
             <div className="col">
               <div className="about-left">
                 <div className="about-thumb">
-                  <img src="/src/assets/images/about/01.jpg" alt="about" />
+                  <img src={image1} alt="about" />
                 </div>
                 <div className="abs-thumb">
-                  <img src="/src/assets/images/about/02.jpg" alt="about" />
+                  <img src={image2} alt="about" />
                 </div>
                 <div className="about-left-content">
                   <h3>{year}</h3>

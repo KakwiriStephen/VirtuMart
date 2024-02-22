@@ -1,5 +1,6 @@
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
+import logoimage from "../../assets/images/logo/logo.png";
 
 const subTitle = "Why Choose Us";
 const title = "Best Online Shopping System";
@@ -63,7 +64,7 @@ const AboutUs = () => {
             </div>
             <div className="col">
               <div className="instructor-thumb">
-                <img src="src/assets/images/logo/logo.png" alt="" />
+                <img src={logoimage} alt="" />
               </div>
             </div>
           </div>
