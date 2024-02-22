@@ -16,13 +16,20 @@ import MostPopularPost from "../../components/Sidebar/MostPopularPost";
 import ProductDisplay from "./ProductDisplay";
 const reviwtitle = "Add a Review";
 
+import Data from "../../products";
+
 const SingleProduct = () => {
   const [product, setProduct] = useState([]);
   const { id } = useParams();
+
+  // useEffect(() => {
+  //   fetch("/src/products.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setProduct(data));
+  // }, []);
   useEffect(() => {
-    fetch("/src/products.json")
-      .then((res) => res.json())
-      .then((data) => setProduct(data));
+    // Assuming `Data` is the local data you imported
+    setProduct(Data); // Assuming you want to find a product by its id
   }, []);
 
   const result = product.filter((p) => p.id === id);
