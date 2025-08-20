@@ -1,4 +1,4 @@
-# Interactive Product Catalog Web Application
+# Interactive Product Catalog - Web Application
 
 This web application, developed as part of a Frontend Development Assignment, presents an interactive product catalog built with React.js and various libraries.
 
